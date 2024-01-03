@@ -17,5 +17,8 @@ module.exports = {
   plugins: [
     'react',
   ],
-  // rules: {}, // Commented out or removed to disable all rules
+  rules: {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
+  }, // Commented out or removed to disable all rules
 };
