@@ -25,7 +25,7 @@ const About = () => (
       <AboutMe />
       </motion.p>
       <motion.img
-      variants={fadeIn('up','tween',0.6,1)}
+      variants={fadeIn('up','tween',0.1,1)}
       src="/arrow-down.svg"
       className="w-[28px] h-[28px] object-contain mt-[28px]"/>
     </motion.div>

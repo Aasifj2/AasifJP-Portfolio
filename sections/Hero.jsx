@@ -21,16 +21,20 @@ const Hero = () => (
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.15 }}
+        style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 
-        className="relative w-full md:-mt-[20px] -mt-[12px]">
+        className="relative w-full md:-mt-[20px]">
           <img
-            className="flex justify-center items-center flex-col relative z-10 Profileimage"
+            className="flex justify-center items-center flex-col z-10 Profileimage"
             src="aasif.png"
             alt="Profile"
             style={{
               // position: 'absolute',
               left: '50%',
               transform: 'translateX(-50%)',
+              // alignContent: 'center',
+              // alignItems: 'center',
+              // justifyContent: 'center',
               marginLeft: '-20px',
             }}
           />
@@ -38,7 +42,7 @@ const Hero = () => (
       <div className="flex justify-center items-center flex-col relative z-10 ">
         <motion.h1 variants={textVariant(1)} className={styles.heroHeading}>
           Welcome <br/> 
-          <span className="text-center lg:text-[70px] md:text-[60px] sm:text-[35px] text-[44px] block  " style={{ marginLeft: '-50px'}}>To</span>
+          <span className="text-center lg:text-[70px] md:text-[60px] sm:text-[35px] text-[44px] block  " style={{ marginLeft: '-50px',textAlign:'center'}}>To</span>
         </motion.h1>
         <motion.div
           variants={textVariant(1)}
