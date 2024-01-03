@@ -3,6 +3,7 @@
 import {motion} from 'framer-motion';
 import styles from '../styles';
 import {fadeIn,staggerContainer,zoomin} from '../utils/motion';
+import { socials } from '../constants';
 
 const Feedback = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -10,22 +11,34 @@ const Feedback = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{once:false,amout:0.1}}
+      viewport={{once:true,amout:0.01}}
       className={`${styles.innerWidth} mx-auto flex lg-flex-row flex-col gap-6`}
       >
       <motion.div
       variants={fadeIn('right','tween',0.2,1)}
       className='flex-[0.5] flex justify-center flex-col gradient-05 sm:p-8 p-4
-      rounded-[32px] border-[1px] border-[#6a6a6a] relaive'
+      rounded-[32px] border-[1px] border-[#6a6a6a]'
       >
-        <div className='feedback-gradient' />
-        <div>
-          <h4 className='font-bold sm:text-[32px]
-          text-[26px] sm:leading-[40px] leading-[36px] text-white'
-          style={{textAlign:'center'}}></h4>
-          <p className='mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px]
-          leading-[16px] text-white' style={{textAlign:'center'}}></p>
-
+        <div className='feedback-gradient footer-gradient' />
+        <div style={{ display: 'flex',justifyContent:'space-between', alignItems: 'center' }}>
+          <h4 className='font-bold sm:text-[32px] text-[20px] sm:ml-[40px] ml-[5px] sm:leading-[40px] leading-[36px] text-white'>
+            AJ.Verse
+          </h4>
+          <div className='gap-4 flex sm:mr-[40px] mr-[5px]'>
+                <img
+                src='twitter.svg'
+                className='w-[24px] h-[24px] object-contain cursor-pointer'/>
+                <img
+                src='linkedin.svg'
+                className='w-[24px] h-[24px] object-contain cursor-pointer'/>
+                <img
+                src='instagram.svg'
+                className='w-[24px] h-[24px] object-contain cursor-pointer'/>
+                <img
+                src='github_simple.png'
+                className='w-[24px] h-[24px] object-contain cursor-pointer'/>
+          
+          </div>
         </div>
 
       </motion.div>
