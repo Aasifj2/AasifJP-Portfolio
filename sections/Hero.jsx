@@ -40,13 +40,13 @@ const Hero = () => (
           />
     </motion.div>
       <div className="flex justify-center items-center flex-col relative z-10 ">
-        <motion.h1 variants={textVariant(1)} className={styles.heroHeading}>
+        <motion.h1 variants={textVariant(1)} className={`${styles.heroHeading} sm:ml-[0px] ml-[-22px]`}>
           Welcome <br/> 
-          <span className="text-center lg:text-[70px] md:text-[60px] sm:text-[35px] text-[44px] block  " style={{ marginLeft: '-50px',textAlign:'center'}}>To</span>
+          <span className="text-center lg:text-[70px] md:text-[60px] sm:text-[35px] text-[44px] block sm:ml-[-30px] ml-[-10px] " style={{ textAlign:'center'}}>To</span>
         </motion.h1>
         <motion.div
           variants={textVariant(1)}
-          className="flex flex-row justify-center items-center">
+          className="flex flex-row justify-center items-center sm:ml-[0px] ml-[-20px]">
           <h1 className={styles.heroHeading} >
             
             <span className="text-center block text-gradient">AJ.</span></h1>
