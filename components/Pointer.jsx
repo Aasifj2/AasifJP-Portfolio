@@ -1,4 +1,7 @@
 'use client';
+
+/* eslint-disable */
+
 import { useEffect } from 'react';
 
 

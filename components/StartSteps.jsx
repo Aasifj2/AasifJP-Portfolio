@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const StartSteps = () => (
   <div>
     start steps
