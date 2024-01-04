@@ -1,5 +1,7 @@
 'use client';
 
+/* eslint-disable */
+
 import { motion } from "framer-motion";
 import { fadeIn, textContainer, textVariant2 } from "../utils/motion";
 
