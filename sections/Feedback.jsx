@@ -9,7 +9,7 @@ const Feedback = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
-      initial="hidden"
+      initial="show"
       whileInView="show"
       viewport={{once:true,amout:0.01}}
       className={`${styles.innerWidth} mx-auto flex lg-flex-row flex-col gap-6`}

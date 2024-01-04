@@ -1,15 +1,11 @@
 'use client';
 
 /* eslint-disable */
-
-import {motion} from 'framer-motion';
-import {socials} from '../constants';
-import styles from '../styles';
-import {footerVariants} from '../utils/motion';
+;
 const Footer = () => (
-  <motion.footer
+  <footer
 >
-  </motion.footer>
+  </footer>
 );
 
 export default Footer;
