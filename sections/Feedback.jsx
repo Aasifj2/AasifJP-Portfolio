@@ -19,7 +19,7 @@ const Feedback = () => (
       className='flex-[0.5] flex justify-center flex-col sm:p-8 p-4
       rounded-[32px] border-[1px] border-[#6a6a6a]'
       >
-        <div className='footer-gradient ' />
+        <div className='' />
         <div style={{ display: 'flex',justifyContent:'space-between', alignItems: 'center' }}>
           <h4 className='font-bold sm:text-[32px] text-[20px] sm:ml-[40px] ml-[5px] sm:leading-[40px] leading-[36px] text-white'>
             AJ.Verse
