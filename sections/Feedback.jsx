@@ -3,23 +3,23 @@
 import {motion} from 'framer-motion';
 import styles from '../styles';
 import {fadeIn,staggerContainer,zoomin} from '../utils/motion';
-import { socials } from '../constants';
+
 
 const Feedback = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
-      variants={staggerContainer}
-      initial="show"
-      whileInView="show"
-      viewport={{once:true,amout:0.01}}
+      // variants={staggerContainer}
+      // initial="show"
+      // whileInView="show"
+      // viewport={{once:true,amout:0.01}}
       className={`${styles.innerWidth} mx-auto flex lg-flex-row flex-col gap-6`}
       >
       <motion.div
-      variants={fadeIn('right','tween',0.2,1)}
+      // variants={fadeIn('right','tween',0.2,1)}
       className='flex-[0.5] flex justify-center flex-col sm:p-8 p-4
       rounded-[32px] border-[1px] border-[#6a6a6a]'
       >
-        <div className='footer-gradient absolute' />
+        <div className='footer-gradient ' />
         <div style={{ display: 'flex',justifyContent:'space-between', alignItems: 'center' }}>
           <h4 className='font-bold sm:text-[32px] text-[20px] sm:ml-[40px] ml-[5px] sm:leading-[40px] leading-[36px] text-white'>
             AJ.Verse
