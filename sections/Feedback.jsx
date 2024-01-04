@@ -16,7 +16,7 @@ const Feedback = () => (
       >
       <motion.div
       variants={fadeIn('right','tween',0.2,1)}
-      className='flex-[0.5] flex justify-center flex-col gradient-05 sm:p-8 p-4
+      className='flex-[0.5] flex justify-center flex-col sm:p-8 p-4
       rounded-[32px] border-[1px] border-[#6a6a6a]'
       >
         <div className='footer-gradient absolute' />
