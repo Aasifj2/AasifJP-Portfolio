@@ -25,18 +25,18 @@ const Feedback = () => (
             AJ.Verse
           </h4>
           <div className='gap-4 flex sm:mr-[40px] mr-[5px]'>
-                <img
+                <a href=''><img
                 src='twitter.svg'
-                className='w-[24px] h-[24px] object-contain cursor-pointer'/>
-                <img
+                className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+                <a href='https://www.linkedin.com/in/aasif-javid-091/'><img
                 src='linkedin.svg'
-                className='w-[24px] h-[24px] object-contain cursor-pointer'/>
+                className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
                 <img
                 src='instagram.svg'
                 className='w-[24px] h-[24px] object-contain cursor-pointer'/>
-                <img
+                <a href='https://github.com/Aasifj2'><img
                 src='github_simple.png'
-                className='w-[24px] h-[24px] object-contain cursor-pointer'/>
+                className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
           
           </div>
         </div>
