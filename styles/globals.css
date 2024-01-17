@@ -247,13 +247,13 @@ body:hover > #trailer {
   width: 80px;
   /* background-color: white; */
   background: radial-gradient(
-    hsl(295, 88%, 46%) 0%,
+    hsl(295, 100%, 50%) 0%,
     hsl(255, 77%, 58%) 26%,
     hsl(221, 52%, 49%) 74%,
-    hsl(220, 90%, 43%) 100%
+    hsla(220, 90%, 43%, 0.699) 100%
   );
-  filter: blur(40px);
-  border-radius: 80px;
+  filter: blur(35px);
+  border-radius: 60px;
   
   position: fixed;
   left: 0px;

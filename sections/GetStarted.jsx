@@ -118,7 +118,7 @@ const GetStarted = () => {
             </div>
           </div>
             <br3></br3>
-            <h2 className="font1 sm:text-[24px] text-[20px]" style={{ textAlign:'center' }}> &nbsp;<span className="bold font1 sm:text-[26px] text-[22px]" style={{color:"hsla(295, 95%, 52%, 0.973)"}}> Blockchain </span>Developer</h2>
+            <h2 className="font1 sm:text-[24px] text-[20px]" style={{ textAlign:'center' }}> &nbsp;<span className="bold font1 sm:text-[26px] text-[22px]" style={{color:"hsla(295, 95%, 52%, 0.973)"}}> Research </span>And<span className="bold font1 sm:text-[26px] text-[22px]" style={{color:"hsla(295, 95%, 52%, 0.973)"}}> Development </span>Engineer </h2>
             <h2 className="font1 sm:text-[22px] text-[17px]" style={{ textAlign:'center'}}>JAN 2023 <b><span style={{color:"hsla(295, 95%, 52%, 0.773)"}}>•</span>··</b>·············<b>··<span style={{color:"hsla(295, 95%, 52%, 0.773)"}}>•</span></b>JUNE 2023</h2>
             <p className="font1 sm:text-[22px] text-[17px]" style={{ textAlign:'center'}}> &nbsp;</p>
             <h2 className="font1 sm:text-[22px] text-[17px]" style={{ textAlign:'center' }}><b7>Tools and Technologies Used</b7></h2>

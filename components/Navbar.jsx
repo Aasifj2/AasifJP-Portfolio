@@ -20,7 +20,7 @@ const Navbar = () => (
       
 
     <div className="absolute w-[50%] inset-0 gradient-01" />
-    <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
+    <div className={`${styles.innerWidth} mx-auto flex justify-between sm:pl-[30px] pl-[0px] sm:pr-[30px] pr-[0px]`}>
     <a href="https://www.linkedin.com/in/aasif-javid-091/" style={{ zIndex: '1' }} target="_blank" >
       <img src="/linkedin.png"
         alt="LinkedIn"
